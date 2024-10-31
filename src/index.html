@@ -18,8 +18,17 @@
 
     <section id="search">
       <div class="container">
-        <input class="searh-input" type="text" />
-        <button class="search-btn" type="button">Search</button>
+        <form class="search-form">
+          <input
+            type="text"
+            name="searchQuery"
+            placeholder="Search images..."
+            required
+          />
+          <button type="submit">Search</button>
+        </form>
+        <span class="loader hidden"></span>
+        <div class="gallery"></div>
       </div>
     </section>
 
