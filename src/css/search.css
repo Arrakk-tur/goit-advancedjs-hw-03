@@ -5,18 +5,15 @@
   margin-top: 20px;
 }
 
-/* Основний стиль для форми */
 .search-form {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 0;
   gap: 8px;
-  /* position: relative; */
+  position: relative;
   width: 371px;
   height: 40px;
-  left: calc(50% - 371px / 2 - 0.5px);
-  top: 36px;
 }
 
 .search-form input[type='text']:focus,
@@ -24,7 +21,6 @@
   outline: none;
 }
 
-/* Стиль для поля вводу */
 .search-form input[type='text'] {
   width: 272px;
   height: 40px;
@@ -40,7 +36,6 @@
   color: #808080;
 }
 
-/* Стиль для кнопки */
 .search-form button {
   display: flex;
   align-items: center;
